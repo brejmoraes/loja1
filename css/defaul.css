@@ -92,31 +92,34 @@ header nav a:hover {
     transform: translate(-50%, -50%);
 }
 
-.carousel-indicators [data-bs-target]{
-    width: 10px ;
-    height: 10px ;
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 
 }
-.fontd{
+
+.fontd {
     font-family: 'Great Vibes', cursive, sans-serif;
     text-align: center;
     padding-top: 80px;
     color: #fba700;
 
-    
+
 }
-.centerfont{
+
+.centerfont {
     color: #2C1E21;
     text-align: center;
     font-family: 'Arvo', serif;
     letter-spacing: 5px;
     line-height: 63px;
-    
-    
-    
+
+
+
 }
-.widget{
+
+.widget {
     color: #575659;
     text-align: center;
     font-family: "Libre Baskerville", Sans-serif;
@@ -128,12 +131,13 @@ header nav a:hover {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    
-    
-    
-    
+
+
+
+
 }
-.button1{
+
+.button1 {
     font-family: 'Libre Baskerville', serif;
     display: inline-block;
     text-align: center;
@@ -141,26 +145,30 @@ header nav a:hover {
     font-weight: 400;
     line-height: 35px;
     padding: 12px 20px 11px 20px;
-    border:2px solid #FBA700;
-    bottom:50px;
+    border: 2px solid #FBA700;
+    bottom: 50px;
     border-radius: 5px;
-    
-    
-  
+
+
+
 }
-.button1:hover{
-    color:whitesmoke;
+
+.button1:hover {
+    color: whitesmoke;
     background-color: #C6A866;
 }
-.text{
+
+.text {
     padding-left: 50px;
     padding-right: 50px;
 }
-samp{
+
+samp {
     color: #fba700;
     font-size: 30pt;
     font-family: 'Arvo', selif;
 }
-hr{
-    border-top:2px solid #FBA700;
+
+hr {
+    border-top: 2px solid #FBA700;
 }
