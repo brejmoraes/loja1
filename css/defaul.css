@@ -172,18 +172,43 @@ samp {
 hr {
     border-top: 2px solid #FBA700;
 }
-@media (max-width:980px){
-    .logo{
+.form-contact input[type="text"],
+.form-contact input[type="tel"],
+.form-contact input[type="email"],
+.form-contact textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: solid 1px #ceb989;
+    border-radius: 5px;
+    
+}
+button{
+    padding: 5px 10px;
+    background-color: white;
+   border: solid 2px #FBAA00;
+}
+
+
+
+
+/*Mobile*/
+@media (max-width:980px) {
+    .logo {
         display: none;
     }
-    .flex-nav{
+
+    .flex-nav {
         flex-direction: column;
     }
-    .flex-nav a{
+
+    .flex-nav a {
         display: flex;
         justify-content: center;
     }
-    .navbar-toggler-icon{
-        background-image:url(/img/icons/bars-solid.svg);
+
+    .navbar-toggler-icon {
+        background-image: url(/img/icons/bars-solid.svg);
     }
 }
