@@ -164,7 +164,7 @@ header nav a:hover {
 }
 
 samp {
-    color: #fba700;
+    color: rgb(76, 147, 255);
     font-size: 30pt;
     font-family: 'Arvo', selif;
 }
