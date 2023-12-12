@@ -42,11 +42,6 @@ header nav a {
 
 }
 
-header nav a:hover {
-    border-bottom: solid 4px #ddb99d;
-    color: #eee;
-
-}
 
 .right {
     text-align: right;
@@ -76,7 +71,7 @@ header nav a:hover {
 }
 
 .carousel-item {
-    background-color: #9e7989;
+    background-color:rgb(76, 147, 255);
     height: 400px;
     position: relative;
 
@@ -103,7 +98,7 @@ header nav a:hover {
     font-family: 'Great Vibes', cursive, sans-serif;
     text-align: center;
     padding-top: 80px;
-    color: #fba700;
+    color: rgb(76, 147, 255);
 
 
 }
@@ -173,9 +168,7 @@ hr {
     border-top: 2px solid #FBA700;
 }
 @media (max-width:980px){
-    .logo{
-        display: none;
-    }
+    
     .flex-nav{
         flex-direction: column;
     }
@@ -183,7 +176,6 @@ hr {
         display: flex;
         justify-content: center;
     }
-    .navbar-toggler-icon{
-        background-image:url(/img/icons/bars-solid.svg);
-    }
+    
+   
 }
